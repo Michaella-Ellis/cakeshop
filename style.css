@@ -24,7 +24,7 @@ html {
   justify-content: center;
   padding: 40px;
   flex-direction: column;
-  text-align: center;
+  width: 400px;
   
 }
   .about-us img{
