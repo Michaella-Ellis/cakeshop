@@ -1,0 +1,176 @@
+ html {
+  background-color: 
+  font-family: 'Source Serif Pro', serif;
+  
+}
+
+@media only screen and (max-width: 680px) { 
+  nav {
+    flex-direction: column;
+  }
+  .online-shop {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .team { 
+  display: flex;
+  flex-direction: column; 
+  
+}
+  .about-us{
+  background-color: #f27979;;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  flex-direction: column;
+  text-align: center;
+  
+}
+  .about-us img{
+  display: none;
+}
+  
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #f27979;
+  
+}
+
+nav ul li:hover {
+  color: #d90b1c;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  background-color: #f2e4e9;
+  padding: 5px 0px;
+ /* overflow: hidden; */
+  justify-content: space-around;
+  
+}
+
+.hero img {
+  height: 400px;
+  width: auto;
+  padding: 5px;
+  margin: 0px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout{
+  padding: 15px;
+}
+
+.online-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.team { 
+  display: flex;
+  
+}
+
+.team p {
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 35px;
+}
+
+.online-shop-box img{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #f27979;
+}
+
+.shop-text {
+  text-align: center;
+  font-weight: bold;
+  
+  
+}
+
+
+.team {
+  display: flex;
+  justify-content: center;
+}
+
+.team img{
+  height: 500px;
+  width: 300px;
+  padding: 10px;
+  
+}
+
+.about-us{
+  background-color: #f2e4e9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  
+}
+
+.about-us h2{
+  color: white;
+}
+
+.about-us img{
+  height: 300px;
+  width: 300px;
+  padding: 50px 50px;
+}
+
+.about-us {
+  line-height: 1.5;
+}
+
+.about-us h2{
+  margin: 10px;
+}
+
+.about-us p{
+  padding: 0px 100px;
+}
+
+.flowers {
+  height: 125px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
